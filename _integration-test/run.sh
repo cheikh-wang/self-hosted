@@ -2,7 +2,7 @@
 set -ex
 
 echo "${_group}Setting up variables and helpers ..."
-export SENTRY_TEST_HOST="${SENTRY_TEST_HOST:-http://localhost:9000}"
+export SENTRY_TEST_HOST="${SENTRY_TEST_HOST:-http://localhost:8080}"
 TEST_USER='test@example.com'
 TEST_PASS='test123TEST'
 COOKIE_FILE=$(mktemp)

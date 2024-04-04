@@ -11,7 +11,7 @@ import re
 from typing import Callable
 
 SENTRY_CONFIG_PY = "sentry/sentry.conf.py"
-SENTRY_TEST_HOST = os.getenv("SENTRY_TEST_HOST", "http://localhost:9000")
+SENTRY_TEST_HOST = os.getenv("SENTRY_TEST_HOST", "http://localhost:8080")
 TEST_USER = "test@example.com"
 TEST_PASS = "test123TEST"
 TIMEOUT_SECONDS = 60
